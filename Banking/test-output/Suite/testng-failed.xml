@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <classes>
+      <class name="testcases.BankTest">
+        <methods>
+          <include name="Banking"/>
+          <include name="addCustomerDetails" invocation-numbers="0 1"/>
+          <include name="quitBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testcases.BankTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

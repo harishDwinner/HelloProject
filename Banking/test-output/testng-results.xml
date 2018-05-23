@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-05-21T05:38:37Z" name="Default suite" finished-at="2018-05-21T05:40:11Z" duration-ms="93212">
+    <groups>
+    </groups>
+    <test started-at="2018-05-21T05:38:37Z" name="Default test" finished-at="2018-05-21T05:40:11Z" duration-ms="93212">
+      <class name="com.A2.testcases.BankTest">
+        <test-method is-config="true" signature="togetExtentResult()[pri:0, instance:com.A2.testcases.BankTest@4e096385]" started-at="2018-05-21T11:08:37Z" name="togetExtentResult" finished-at="2018-05-21T11:08:37Z" duration-ms="632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- togetExtentResult -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.A2.testcases.BankTest@4e096385]" started-at="2018-05-21T11:08:37Z" name="launchBrowser" finished-at="2018-05-21T11:09:00Z" duration-ms="22509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="Banking()[pri:1, instance:com.A2.testcases.BankTest@4e096385]" started-at="2018-05-21T11:09:00Z" name="Banking" finished-at="2018-05-21T11:09:16Z" duration-ms="15902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Banking -->
+        <test-method signature="addCustomerDetails(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.A2.testcases.BankTest@4e096385]" started-at="2018-05-21T11:09:18Z" name="addCustomerDetails" data-provider="dp" finished-at="2018-05-21T11:09:44Z" duration-ms="26307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rajini]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kanth]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[670026]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerDetails -->
+        <test-method signature="openAccount()[pri:3, instance:com.A2.testcases.BankTest@4e096385]" started-at="2018-05-21T11:09:44Z" name="openAccount" finished-at="2018-05-21T11:10:01Z" duration-ms="16612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccount -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.A2.testcases.BankTest@4e096385]" started-at="2018-05-21T11:10:01Z" name="quitBrowser" finished-at="2018-05-21T11:10:11Z" duration-ms="9775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.A2.testcases.BankTest@4e096385]" started-at="2018-05-21T11:10:12Z" name="configAS" finished-at="2018-05-21T11:10:12Z" duration-ms="494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.A2.testcases.BankTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
